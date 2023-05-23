@@ -105,6 +105,8 @@ public class TaskBasic_03_cancelling
         Console.ReadKey();
         emergency.Cancel();
 
+        Console.WriteLine("MultiTokenCancelation finished");
+
     }
 
     public static void Run()
